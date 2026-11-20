@@ -1032,3 +1032,83 @@ h3 {
   font-size: 0.92rem;
   margin-top: 0.2rem;
 }
+/* ==========================================================================
+   Contact & footer
+   ========================================================================== */
+
+.contact-inner {
+  max-width: 680px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.contact-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.contact-title {
+  font-size: clamp(2rem, 5.4vw, 3.1rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.contact-text {
+  margin-top: 1.4rem;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.9rem;
+  margin-top: 2.4rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding-block: 2.6rem;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  text-align: center;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1.1rem;
+}
+
+.footer-socials a {
+  color: var(--text-muted);
+  transition: color 0.25s var(--ease-out), transform 0.25s var(--ease-out);
+}
+
+.footer-socials svg {
+  width: 19px;
+  height: 19px;
+}
+
+.footer-socials a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.footer-note {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.footer-copy {
+  font-size: 0.82rem;
+  color: var(--text-faint);
+}
